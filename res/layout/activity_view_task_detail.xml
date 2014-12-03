@@ -1,0 +1,145 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/activity_view_task_detail_TextView_task_title_label"
+                android:padding="3dip"
+                android:text="Task Title"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/activity_view_task_detail_TextView_task_title_content"
+                android:gravity="right"
+                android:padding="3dip"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/activity_view_task_detail_TextView_due_date_label"
+                android:padding="3dip"
+                android:text="Due Date"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/activity_view_task_detail_TextView_due_date_content"
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="03/02/2013"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/activity_view_task_detail_TextView_note_label"
+                android:padding="3dip"
+                android:text="Note"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/activity_view_task_detail_TextView_note_content"
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="This is the note\nThe note of the task"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/activity_view_task_detail_TextView_prority_level_label"
+                android:padding="3dip"
+                android:text="Priority Level"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/activity_view_task_detail_TextView_prority_level_content"
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="High"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow>
+        </TableRow>
+
+        <TableRow>
+            
+            <TextView
+                android:id="@+id/activity_view_task_detail_TextView_group_label"
+                android:padding="3dip"
+                android:text="Group"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/activity_view_task_detail_TextView_group_content"
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Shopping List"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+        
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow>
+            
+            <TextView
+                android:id="@+id/activity_view_task_detail_TextView_status_label"
+                android:padding="3dip"
+                android:text="Status"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/activity_view_task_detail_TextView_status_content"
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Completed"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Done" />
+
+    </TableLayout>
+
+</ScrollView>
